@@ -10,11 +10,13 @@ public class H
 		}
 		catch(Throwable e)
 		{
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 			System.out.println("Caught");
 		}
 	}
 }
+
 /*
 Output:
 null

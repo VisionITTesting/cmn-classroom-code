@@ -7,7 +7,13 @@ public class B
 		
 		try
 		{
-			int a=10/0;
+			int a=10/6;
+			//sds
+			
+			//sdfsf
+			
+			//sfddsf
+			//fdsf
 		}
 		catch(ArithmeticException e)
 		{

@@ -15,6 +15,8 @@ public class F
 		catch(ArithmeticException e)
 		{
 			System.out.println("Running 2nd catch");
+		}catch(Exception e) {
+			
 		}
 	}
 }

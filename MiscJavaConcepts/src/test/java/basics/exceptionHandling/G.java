@@ -11,26 +11,22 @@ public class G
 			try
 			{
 				System.out.println(arr1[i]/arr2[i]);
+				//arr[5]/arr[5];
+				//60/no values
+				
 			}
 			catch(ArithmeticException e)
 			{
 				System.out.println(e.getMessage());
 			}
+			
 			catch(ArrayIndexOutOfBoundsException e)
 			{
 				System.out.println("No such index");
+			}catch(Exception e) {
+				//genetic exception
 			}
+			
 		}
 	}
 }
-/*
-Output:
-1/
-by zero
-1/
-by zero
-1
-No such index
-No such index
-No such index
- */
